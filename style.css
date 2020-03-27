@@ -493,9 +493,13 @@ header .owner-info h3{
 }
 
 @media(min-width:1440px){
+    .call-us{
+        top:40px;
+    }
     .call-us p{
         font-size: 28px;
         line-height: 45px;
+        left: calc(50% - 20%);
     }
 }
 
