@@ -620,3 +620,75 @@ header .owner-info h3{
        margin-top: 160px;
     }
 }
+/* HR */
+
+
+
+hr{
+    position: relative;
+    left: 15px;
+    width:90%;
+    background-color:#e3e3e3;
+    height: 3px;
+    border:none;
+    border-radius: 10px;
+    margin: 35px 0;
+}
+
+
+
+
+
+/* ICONS */
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+}
+
+.icons .heart{
+    display: flex;
+    flex-direction: column; 
+}
+
+.heart-img img{
+    position: relative;
+    width:30%;
+    left: calc(50% - 15%);
+}
+
+.icons .phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-img img{
+    position: relative;
+    width:30%;
+    left: calc(50% - 15%);
+}
+
+.icons .activities{
+    display: flex;
+    flex-direction: column;
+}
+
+.activities-img img{
+    position: relative;
+    width:30%;
+    left: calc(50% - 15%);
+}
+
+.icons .info h3{
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 10px 0;
+}
+
+.icons .info p{
+    text-align: center;
+    margin: 0 15px 50px 15px;
+}
