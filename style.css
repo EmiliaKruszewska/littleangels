@@ -1,4 +1,4 @@
-
+/* INDEX */
 *{
     margin:0;
     padding:0;
@@ -16,7 +16,7 @@ body{
     flex-direction: column;
 }
 
-/* BURGER */
+    /* BURGER */
 
 .burger{
     position: fixed;
@@ -58,7 +58,7 @@ body{
     transform: rotate(-45deg);
 }
 
-/* NAVIGATION */
+    /* NAVIGATION */
 
 .navigation{
     position: fixed;
@@ -211,7 +211,7 @@ nav a:hover{
         width:60%;
     }
 }
-/* HEADER */
+    /* HEADER */
 
 header{
     display: flex;
@@ -425,7 +425,7 @@ header .owner-info h3{
    
 }
 
-/* CALL US */
+    /* CALL US */
 
 .call-us{
     padding:10px 0;
@@ -506,7 +506,7 @@ header .owner-info h3{
     }
 }
 
-/* WELCOME */
+        /* WELCOME */
 
 .welcome{
     display: flex;
@@ -1009,3 +1009,85 @@ footer .author a{
 
 
 
+
+
+
+/* CONTACT */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+.contact .contact-title{
+    margin: 20px 10px;
+}
+.contact .contact-title p{
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+form{
+    margin: 30px 20px 20px 20px ;
+    transition: all 4s ease-in-out;
+    background-color:#a5c4c0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px -5px rgba(0,0,0,0.77);
+}
+
+.form-control{
+    width:100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:  1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background-color: #567e78;
+    border-color: transparent;
+    color:#e3e3e3;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form.submit:hover{
+    cursor: pointer;
+    background-color: teal;
+}
+
+@media(min-width:533px) and (orientation:landscape){
+    form{
+        /* width:80%; */
+        margin: 30px 50px 20px 50px ;
+    }
+   
+}
+
+#map {
+    text-align: center;
+}
+#map .map-find{
+    font-family: 'Lato',sans-serif;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    color: #415a57;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#map iframe{
+    width: 280px;
+    height: 250px;
+    margin-bottom: 50px;
+}
