@@ -864,6 +864,7 @@ footer .socialmedia i{
 }
 footer .socialmedia i:hover{
     color: #779e9e;
+    cursor: pointer;
 }
 
 footer .call-footer{
@@ -909,6 +910,66 @@ footer .author a{
     }
 }
 
+/* RECOMMENDATIONS */
+
+.rec{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 15px;
+    font-family: 'Lato', sans-serif;
+    line-height: 25px;
+}
+.rec h2{
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+.rec .quote{
+    margin-bottom: 10px;
+}
+.rec .quote .q-contener{
+    border: 1px solid #e3e3e3;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #e3e3e3;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.32);
+}
+.rec .quote q{
+    font-size: 16px;
+    font-style: italic;
+    /* border: 1px solid #e3e3e3; */
+    
+    
+}
+.rec .quote p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color:#0e534a;
+    
+}
+
+@media(min-width:731px) and (orientation:landscape){
+    .rec{
+        margin: 60px 40px 10px 40px;
+    }
+}
+@media(min-width:768px) and (orientation:portrait){
+    .rec{
+        margin: 40px 40px 10px 40px;
+    }
+}
+@media(min-width:1024px){
+    .rec{
+        margin: 100px 60px 10px 60px;
+    }
+}
+@media(min-width:1440px){
+    .rec{
+        margin: 70px 70px 10px 70px;
+    }
+}
+
 
 /* DUTIES */
 .duties {
@@ -928,12 +989,14 @@ footer .author a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
+    color:#0e534a;
 }
 .duties article ul li ul li{
     text-transform: none;
     margin: 10px 15px;
     font-weight: 500;
     font-size: 16px;
+    color:#000;
 }
 .duties .duties-photos{
     display: flex;
@@ -1067,11 +1130,70 @@ form.submit:hover{
 
 @media(min-width:533px) and (orientation:landscape){
     form{
-        /* width:80%; */
-        margin: 30px 50px 20px 50px ;
+        margin: 30px 50px 20px 50px;
     }
-   
 }
+@media(min-width:731px) and (orientation:landscape){
+    .contact .contact-title{
+        margin: 60px 30px 10px 30px;
+    }
+    .contact .contact-title p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    form{
+        margin: 30px 100px 40px 100px ;
+    }
+}
+@media(min-width:768px) and (orientation:portrait){
+    .contact .contact-title{
+        margin: 60px 30px 10px 30px;
+    }
+    .contact .contact-title p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    form{
+        margin: 30px 100px 40px 100px ;
+    }
+}
+@media(min-width:1024px){
+    
+    .contact .contact-title{
+        margin: 100px 10px 10px 30px;
+    }
+}
+@media(min-width:1500px){
+     .contact {
+        flex-direction: row;
+    }
+    .contact .contact-title{
+        flex-basis: 50%;
+        margin: 100px 10px 10px 30px;
+    }
+    .contact .contact-title p{
+        text-align: left;
+        font-size: 20px;
+    }
+    .contact .contact-form{
+        flex-basis: 50%;
+    }
+    form{
+        margin: 70px 50px 40px 40px ;
+    } 
+}
+@media(min-width:1900px){
+    .contact .contact-title{
+        margin: 100px 10px 30px 30px;
+    }
+    .contact .contact-title p{
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+
+
+        /* MAP */
 
 #map {
     text-align: center;
@@ -1090,4 +1212,24 @@ form.submit:hover{
     width: 280px;
     height: 250px;
     margin-bottom: 50px;
+}
+@media(min-width:731px) and (orientation:landscape){
+    #map .map-find{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    #map iframe{
+        width: 450px;
+        height: 350px;
+    }
+}
+@media(min-width:768px) and (orientation:portrait){
+    #map .map-find{
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+    #map iframe{
+        width: 450px;
+        height: 350px;
+    }
 }
