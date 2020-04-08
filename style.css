@@ -1072,7 +1072,55 @@ footer .author a{
 
 
 
+/* ABOUT US */
 
+.about-us{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato',sans-serif;
+}
+.about-us .about-photo{
+    margin: 20px 20px;
+}
+.about-us .about-photo img{
+    width:100%;
+}
+.about-us .about-info{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 15px 20px 15px;
+}
+.about-us .office-hours h2{
+    color:#0e534a;
+    margin-left: 20px;
+}
+.about-us .table-office{
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 20px;
+    left: calc(50% - 40%);
+}
+.about-us table{
+    width: 80%;
+    background-color: #438077;
+    color:#e3e3e3;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.32);
+}
+.about-us table tr{
+    border-bottom: 1px dotted #858585;
+}
+.about-us table th{
+    text-align: center;
+    padding: 10px 15px;
+    
+}
+
+
+
+
+
+/* FOR CLIENTS */
 
 
 /* CONTACT */
