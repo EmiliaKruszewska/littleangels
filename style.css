@@ -1365,7 +1365,7 @@ form.submit:hover{
 @media(min-width:1024px){
     
     .contact .contact-title{
-        margin: 100px 10px 10px 30px;
+        margin: 100px 50px 10px 50px;
     }
 }
 @media(min-width:1500px){
@@ -1374,25 +1374,24 @@ form.submit:hover{
     }
     .contact .contact-title{
         flex-basis: 50%;
-        margin: 100px 10px 10px 30px;
+        margin: 100px 10px 10px 50px;
     }
     .contact .contact-title p{
-        text-align: left;
+        text-align: justify;
         font-size: 20px;
     }
     .contact .contact-form{
         flex-basis: 50%;
     }
     form{
-        margin: 70px 50px 40px 40px ;
+        margin: 70px 50px 40px 40px;
     } 
 }
 @media(min-width:1900px){
     .contact .contact-title{
-        margin: 100px 10px 30px 30px;
+        margin: 100px 10px 30px 80px;
     }
     .contact .contact-title p{
-        font-size: 23px;
         line-height: 38px;
     }
 }
